@@ -1,4 +1,4 @@
-# this is a Clojure-friendly emacs config
+# This is a Clojure-friendly emacs config
 Based on instructions from the book Clojure for The Brave and True.
 ## Installing
 1. Close Emacs.
