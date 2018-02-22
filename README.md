@@ -8,7 +8,8 @@ Based on instructions from the book Clojure for The Brave and True.
    would delete `C:\Users\jason\AppData\Roaming\.emacs.d`.) This is
    where Emacs looks for configuration files, and deleting these files
    and directories will ensure that you start with a clean slate.
-3. Then open Emacs.
+3. Replace it with my files.
+4. Then open Emacs.
 ## Versions Used
 
 ```
