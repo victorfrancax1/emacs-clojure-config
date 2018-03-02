@@ -143,3 +143,10 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+;; Disable tool-bar
+(tool-bar-mode -1)
+
+;; Disable Menu Bar
+(menu-bar-mode -1)
+
