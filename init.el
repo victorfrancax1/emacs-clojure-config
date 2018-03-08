@@ -150,3 +150,15 @@
 ;; Disable Menu Bar
 (menu-bar-mode -1)
 
+;; Powerline activation
+(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
+(require 'powerline)
+
+;;Powerline customization
+(set-face-attribute 'mode-line nil
+                    :foreground "Black"
+                    :background "DarkOrange"
+                    :box nil)
+
+(setq powerline-arrow-shape 'curve)
+
