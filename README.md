@@ -1,5 +1,6 @@
-# This is a Clojure-friendly emacs config
+# This is my Clojure-friendly emacs config
 Based on instructions from the book Clojure for The Brave and True.
+Also added powerline status bar (https://github.com/milkypostman/powerline)
 ## Installing
 1. Close Emacs.
 2. Delete `~/.emacs` or `~/.emacs.d` if they exist. (Windows users, your
