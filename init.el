@@ -158,7 +158,14 @@
 ;; Disable Menu Bar
 (menu-bar-mode -1)
 
-;;magit-status key setting
+;; magit-status key setting
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
+;; binding neotree to F8
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+
+;; enabling global-auto-revert-mode to revert buffers automatically
+(global-auto-revert-mode 1)
+(setq auto-revert-check-vc-info t)
