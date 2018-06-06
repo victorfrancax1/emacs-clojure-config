@@ -169,3 +169,6 @@
 ;; enabling global-auto-revert-mode to revert buffers automatically
 (global-auto-revert-mode 1)
 (setq auto-revert-check-vc-info t)
+
+;; enabling elpy
+(elpy-enable)
