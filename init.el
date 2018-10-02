@@ -164,7 +164,7 @@
 
 ;; binding neotree to F8
 (require 'neotree)
-(global-set-key [f8] 'neotree-toggle)
+(global-set-key [f7] 'neotree-toggle)
 
 ;; enabling global-auto-revert-mode to revert buffers automatically
 (global-auto-revert-mode 1)
