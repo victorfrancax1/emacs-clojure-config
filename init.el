@@ -162,7 +162,7 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
-;; binding neotree to F8
+;;setting up neotree and binding it to F7
 (require 'neotree)
 (global-set-key [f7] 'neotree-toggle)
 
