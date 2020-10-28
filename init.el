@@ -162,9 +162,9 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
-;;setting up neotree and binding it to F7
+;;setting up neotree and binding it to F8
 (require 'neotree)
-(global-set-key [f7] 'neotree-toggle)
+(global-set-key [f8] 'neotree-toggle)
 
 ;; enabling global-auto-revert-mode to revert buffers automatically
 (global-auto-revert-mode 1)
